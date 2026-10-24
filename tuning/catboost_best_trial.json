@@ -1,0 +1,16 @@
+{
+  "mean_fold_roc_auc": 0.9807279669712037,
+  "number": 29,
+  "params": {
+    "iterations": 300,
+    "depth": 6,
+    "learning_rate": 0.06708626081653052,
+    "l2_leaf_reg": 5.47163796093696,
+    "random_strength": 0.00215820240737873,
+    "subsample": 0.9938211640004143,
+    "rsm": 0.6967719144484393,
+    "auto_class_weights": "Balanced",
+    "boosting_type": "Ordered"
+  },
+  "study_name": "catboost_focused_short_trees_v1"
+}

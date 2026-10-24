@@ -1,0 +1,16 @@
+{
+  "mean_fold_roc_auc": 0.9761307981817718,
+  "number": 18,
+  "params": {
+    "class_weight": "balanced",
+    "colsample_bytree": 0.7281598757483032,
+    "learning_rate": 0.023472044428273456,
+    "min_child_samples": 113,
+    "n_estimators": 300,
+    "num_leaves": 31,
+    "reg_alpha": 0.004742424030646645,
+    "reg_lambda": 0.031223163016173654,
+    "subsample": 0.8974893946313489
+  },
+  "study_name": "eba9bbfdcf84a382_lightgbm"
+}

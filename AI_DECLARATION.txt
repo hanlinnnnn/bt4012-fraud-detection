@@ -1,0 +1,13 @@
+AI usage declaration
+
+I used Claude (Anthropic) as an AI coding assistant. It wrote most of the code and ran the experiments I asked for on my machine. It also suggested some techniques, such as the neighbour-score stacking, the recency weights and rank blending, and drafted documentation.
+
+I directed the work. I chose the questions to investigate, interpreted the results and made the modelling decisions. Several of the key ideas came from me:
+- making use of the unlabelled transactions, and weighting them only partially rather than dropping them or trusting them fully;
+- splitting the recency weighting around period 24, where new fraud types appear, with a separate tau for the earlier and later periods;
+- blending models built with different treatments of the unlabelled data, and looking for low-correlation partners among earlier models to blend with the best one;
+- checking whether other model families or tuning methods (Optuna, PCA, WoE/IV) could help.
+
+I also questioned results that didn't add up and asked for evidence behind claims; the fraud-over-time analysis is one example. I decided which submissions to make and selected the final two, including the hedge.
+
+I reviewed the code and the explanations in this repository and take responsibility for them.
